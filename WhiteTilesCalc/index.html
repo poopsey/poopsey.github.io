@@ -13,10 +13,10 @@
       <label><b>Epic Piano Tiles Time Calculator</b></label>
       <br><br>
       Refresh Rate:
-      <input type="text" id="refreshrate" onkeypress="return isNumber(event)" autocomplete="off" size="2" value="144"/>
+      <input type="text" id="refreshrate" onkeypress="return isNumber(event)" oninput="calculate()" autocomplete="off" size="2" value="144"/>
       <br>
 	  Time:
-      <input type="text" id="time" onkeypress="return isNumber(event)" autocomplete="off" size="3" value=""/>
+      <input type="text" id="time" onkeypress="return isNumber(event)" oninput="calculate()" autocomplete="off" size="3" value=""/>
     </p>
 </fieldset>
 
