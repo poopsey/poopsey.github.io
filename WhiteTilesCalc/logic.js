@@ -25,10 +25,10 @@ function calculate() {
 }
 
 function isNumber(event) {
-  var keycode = event.keyCode;
-  if ((keycode>47 && keycode<58) || keycode==44 || keycode==46) {
-    calculate(); 
-    return true;
-  }
-  return false;
+	var keycode = event.keyCode;
+	if ((keycode>47 && keycode<58) || keycode==44 || keycode==46) {
+		calculate(); 
+		return true;
+	}
+	return false;
 }
