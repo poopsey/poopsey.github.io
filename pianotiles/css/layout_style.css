@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+
+#header {
+    background-color:#eb4f40;
+    font-family:lato,tahoma;
+    font-weight:700;
+    height:76px;
+    width:100%;
+    box-shadow:rgba(0,0,0,.08) 0 2px 1px;
+}
+#opt_logo{
+    background:#2c2b33 url(../css/opt_logo.png) no-repeat center center ;
+    width:275px;
+    height:100%;
+    float:left;
+}
+#header ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    color:#fff;
+    height:100%;
+}
+#header li{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    float:left;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    line-height: 70px;
+}
+#header li.active{
+    background-color:#cc3f32 !important;
+}
+#header li.active:after{
+    position: relative;
+    bottom: 0;
+    left: 64px;
+    height: 10px;
+    width: 21px;
+    background-image: url(../css/menu_active.png);
+    content: " ";
+    display: block;
+}
+#header li:hover{
+    background-color:#e45143;
+}
+#header li a{
+    color:#fff !important;
+    text-decoration:none !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#opt_title{
+    font-family:lato,tahoma;
+    font-weight:300;
+    text-align: left;
+    font-size:25px;
+    margin:30px auto;
+    width:400px
+}
+#opt_main{
+margin:0px;
+    padding:0px;
+    user-select: none;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+    cursor: pointer;
+   
+    width: 400px;
+    margin: auto;
+    text-align:center;
+}
+#opt_main .adsense{
+    float:left;
+    width:160px;
+    height:600px;
+    background-color:#dadbdd;
+}
+#opt_main .adsense.right{
+    float:right;
+}
+#main{
+    display:inline-block;
+    width:398px;
+    height:598px;
+    border:1px black solid;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+    box-shadow: rgba(0,0,0,0.08) 2px 3px 0px;
+    
+}
+#opt_desc{
+    border-radius:3px;
+    background-color:#fff;
+    color:#2c2b33;
+    box-shadow: rgba(0,0,0,0.08) 2px 3px 0px;
+    font-size:14px;
+    margin:65px 0;
+    font-family:lato,tahoma;
+    font-weight:300;
+    padding:35px;
+    text-align:left;
+}
+#opt_fbcomments{
+    text-align:center;
+}
+#opt_descImg{
+    float:left;
+    margin-right:30px;
+}
